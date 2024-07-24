@@ -1,0 +1,18 @@
+{
+  "name": "javascript-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --browser=chrome",
+    "js":"node ./index.js",
+    "number":"node --watch ./numbers/number.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
