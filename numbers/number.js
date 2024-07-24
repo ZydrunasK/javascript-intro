@@ -148,6 +148,69 @@ console.clear();
 let m = 0;
 console.log(m);
 console.log(++m);
+console.clear();
 
 
+// savarankiskas testas
+
+
+const thing = 44;
+const ling = 6;
+const ale = thing % ling;
+
+console.log(ale);
+console.log(45 % 8);
+
+console.clear();
+// how many lamps fit in a box
+
+let boxSize = 15;
+let lampSize = 7;
+
+const maxFit = boxSize / lampSize;  //kaip padaryti kad suapvalintu gauta reiksme
+const spaceTaken = maxFit * lampSize;
+const spaceLeft = boxSize % lampSize;
+
+
+console.log(maxFit, spaceTaken, spaceLeft);
+
+//paklausti ^
+
+// kebabai
+console.clear();
+
+let kebabas = 10;
+let suvalgiau = kebabas - 1;
+
+console.log(kebabas);
+console.log(suvalgiau);
+console.log(suvalgiau--);
+console.log(suvalgiau--);
+console.log(--suvalgiau);
+console.log(--suvalgiau);
+console.log(--suvalgiau);
+console.log(--suvalgiau);
+console.log(suvalgiau--);
+console.log(suvalgiau--);
+
+let nusipirkau = suvalgiau + 1;
+
+console.log(nusipirkau);
+console.log(nusipirkau++);
+console.log(nusipirkau++);
+console.log(++nusipirkau);
+console.log(++nusipirkau);
+console.log(++nusipirkau);
+console.log(++nusipirkau);
+
+let velValgau = nusipirkau - 1;
+
+console.log(velValgau);
+console.log(velValgau--);
+console.log(velValgau--);
+console.log(--velValgau);
+console.log(--velValgau);
+console.log(--velValgau);
+console.log(--velValgau);
+console.log(--velValgau);
 
