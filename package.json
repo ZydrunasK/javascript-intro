@@ -6,6 +6,7 @@
     "dev": "dead-server --host=localhost --browser=chrome",
     "js":"node ./index.js",
     "number":"node --watch ./numbers/number.js",
+    "string":"node --watch ./numbers/string.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
