@@ -167,14 +167,12 @@ console.clear();
 let boxSize = 15;
 let lampSize = 7;
 
-const maxFit = boxSize / lampSize;  //kaip padaryti kad suapvalintu gauta reiksme
+const maxFit = boxSize / lampSize;  
 const spaceTaken = maxFit * lampSize;
 const spaceLeft = boxSize % lampSize;
 
 
 console.log(maxFit, spaceTaken, spaceLeft);
-
-//paklausti ^
 
 // kebabai
 console.clear();
