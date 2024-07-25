@@ -9,6 +9,9 @@ Operatioriai:
 + sujungia stringus
 \ (escape) eskeipiname - funkcini simboli paveriame i spausdintina
 
+Interpretavimas:
+- tuscias string - false
+- netuscias string - true
 
 */
 
@@ -92,4 +95,44 @@ console.log(6, textSize3);
 textSize3 = textSize3 + ' simboliai';
 console.log(7, textSize3);
 
+console.clear();
+
+const pomidoras = 'Pomidoras';
+console.log(pomidoras);
+
+
+const Symbol1 = pomidoras[0];
+console.log(Symbol1);
+
+const Symbol2 = pomidoras[1];
+console.log(Symbol2);
+
+const Symbol3 = pomidoras[2];
+console.log(Symbol3);
+
+console.log(pomidoras[99]);
+console.log(pomidoras[-99]);
+console.log(pomidoras[3.1516]);
+console.log(pomidoras[-3.1516]);
+
+const agurkas = 'Zalias agurkas'
+const agurkasFirst = agurkas[0]
+
+console.log(agurkasFirst);
+
+const agurkasLast = agurkas[agurkas.length -1];
+console.log(agurkasLast);
+
+const text = 'zsdgawergasp';
+const lastSymbol = text[--text.length];
+
+console.log(lastSymbol);
+
+console.clear();
+
+const personName = 'Vardas'
+const personSurName = 'Pavarde'
+
+// V.P.
+console.clear();
 

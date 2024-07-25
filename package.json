@@ -7,6 +7,7 @@
     "js":"node ./index.js",
     "number":"node --watch ./numbers/number.js",
     "string":"node --watch ./numbers/string.js",
+    "boolean":"node --watch ./numbers/boolean.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
