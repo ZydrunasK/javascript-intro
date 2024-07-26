@@ -64,16 +64,9 @@ console.log(false && true || false);
 console.log('--------------------');
 
 console.clear();
-// -----------------------------------------------------
-/*  permutations with repetition (n^r)
-    2 - choices(n) | 4 - positions(r) 
-    | 2 | 2 | 2 | 2 |
-    amount of combinations 
-    2 x 2 x 2 x 2 = 2^4 = 16
-*/
-let n = 2;
-let r = 4;
-let p = Math.pow(n, r);
-console.log(p);
+
+
+
+
  
 
