@@ -31,6 +31,26 @@ const r = (q * w)/ e;
 console.log('r = (',q,'*',w,') /',e);
 console.log(r);
 
+console.log('----------------------------');
+
+console.log(2 || 4);
+console.log(4 || 2);
+console.log(5 || 7);
+console.log(8 && 9);
+console.log(4 && 8);
+console.log(2 && 1);
+
+console.clear();
+
+const stuff = 2 + 5 * (4*8) - 42;
+const stuff2 = 46+59*748-123;
+const stuff3 = (48*(48*5))/(45+95);
+
+
+console.log(stuff);
+console.log(stuff2);
+console.log(stuff3);
+
 
 
 
