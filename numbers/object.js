@@ -80,6 +80,7 @@ console.log(car2sale);
 console.log(car3sale);
 console.log(car4sale);
 
+console.clear();
 /*
 N.D
 
@@ -88,7 +89,7 @@ kiekviena preke yra parasoma pavadinimu, kaina uz vieneta ir norumu pirkti kieki
 
 reikia isspausdinti:
 A) SABLONAS:
- Prekiu krepselyje yra [COUNT] prekiu
+ Prekiu krepselyje yra COUNT prekiu
 
 B) SABLONAS:
 prekiu krepselis
@@ -102,3 +103,89 @@ C) sablonas:
 Prekiu krepselio verte yra TOTAL KAINA eur.
 
 */
+const line = '-------------------------';
+const krep = [
+    {
+       preke: 'Pomidorai ',
+       kaina: 1.80,
+       kiekis: 3,
+    },
+    {
+       preke: 'kumpis ',
+       kaina: 3.00,
+       kiekis: 1,
+    },
+    {
+       preke: 'bulves ',
+       kaina: 0.70,
+       kiekis: 10,
+    },
+    {
+       preke: 'kebabas ',
+       kaina: 5.10,
+       kiekis: 2,
+    },
+    {
+       preke: 'gira ',
+       kaina: 1.10,
+       kiekis: 1,
+    },
+]
+let index_1 = 1;
+let index = 0;
+let index1 = 0;
+let index2 = 0;
+let index3 = 0;
+let index4 = 0;
+let index5 = 0;
+
+// sablonas A
+const kiekisKrep = (
+    krep[index++].kiekis +
+    krep[index++].kiekis +
+    krep[index++].kiekis +
+    krep[index++].kiekis +
+    krep[index++].kiekis 
+);
+const skirtprek = 'Prekiu krepselyje yra ' + krep.length + ' prekiu.';
+
+const sablonasA = 'Prekiu krepselyje yra ' + kiekisKrep + ' prekiu.';
+
+/*  
+    indexN = 0  |  indexN_X = X  |
+    sablonas B   
+*/     
+let preke1 = index_1++ + ') ' + krep[index1++].preke + '(' + krep[index2++].kaina + ' eur)' + ' - ' + krep[index3++].kiekis;
+let preke2 = index_1++ + ') ' + krep[index1++].preke + '(' + krep[index2++].kaina + ' eur)' + ' - ' + krep[index3++].kiekis
+let preke3 = index_1++ + ') ' + krep[index1++].preke + '(' + krep[index2++].kaina + ' eur)' + ' - ' + krep[index3++].kiekis
+let preke4 = index_1++ + ') ' + krep[index1++].preke + '(' + krep[index2++].kaina + ' eur)' + ' - ' + krep[index3++].kiekis
+let preke5 = index_1++ + ') ' + krep[index1++].preke + '(' + krep[index2++].kaina + ' eur)' + ' - ' + krep[index3++].kiekis
+
+
+// sablonas C
+let prekeprice = krep[index4++].kaina * krep[index5++].kiekis;
+prekeprice += krep[index4++].kaina * krep[index5++].kiekis 
+prekeprice += krep[index4++].kaina * krep[index5++].kiekis
+prekeprice += krep[index4++].kaina * krep[index5++].kiekis
+prekeprice += krep[index4++].kaina * krep[index5++].kiekis
+
+
+let sablonasC = 'Prekiu krepselio verte yra ' + prekeprice + ' eur.';
+
+// console.log(krep);
+// console.log(kiekisKrep);
+// console.log(skirtprek);
+console.log(sablonasA);
+console.log(line);
+console.log(preke1);
+console.log(preke2);
+console.log(preke3);
+console.log(preke4);
+console.log(preke5);
+console.log(line);
+console.log(sablonasC);
+
+
+
+
+
