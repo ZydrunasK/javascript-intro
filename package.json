@@ -9,6 +9,7 @@
     "string":"node --watch ./numbers/string.js",
     "boolean":"node --watch ./numbers/boolean.js",
     "boolean2":"node --watch ./numbers/boolean2.js",
+    "array":"node --watch ./numbers/array.js",
     "play":"node --watch ./numbers/play.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

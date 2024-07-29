@@ -39,6 +39,9 @@ console.log(5 || 7);
 console.log(8 && 9);
 console.log(4 && 8);
 console.log(2 && 1);
+console.log(2 && 1);
+console.log(1 && 2 || 3);
+console.log(1 || 2 && 3);
 
 console.clear();
 
