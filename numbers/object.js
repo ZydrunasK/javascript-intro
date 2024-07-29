@@ -140,7 +140,7 @@ let index4 = 0;
 let index5 = 0;
 
 // sablonas A
-const kiekisKrep = (
+let kiekisKrep = (
     krep[index++].kiekis +
     krep[index++].kiekis +
     krep[index++].kiekis +
