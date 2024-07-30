@@ -73,6 +73,46 @@ skaiciuSum += skaiciai[index++];
 console.log('kiekis - ', skaiciai.length);
 console.log('current index', index++);
 console.log(skaiciuSum);
+console.clear();
+
+const pc = {
+    monitor: {
+        width: 1920,
+        height: 1080,
+    },
+    ram: 16,
+    hd: 100,
+    keyboard: 'en',
+    mouse: true,
+    power: true,
+    'cpu': 'On Fire!',
+    123: {
+        one: 1,
+        two: 2,
+        three: 3,
+    },
+};
+
+const param = 'monitor';
+const resW = 'width';
+const resH = 'height';
+
+console.log(pc[param][resW]);
+console.log(pc['cpu']);
+console.log(pc['123']['two']);
+
+console.clear();
+
+const house = {
+    width: 16,
+    height: 3,
+    depth: 5,
+};
+
+const houseKeys = Object.keys(house);
+console.log(houseKeys);
+console.log(Object.keys(house));
+
 
 
 

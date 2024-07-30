@@ -1,3 +1,5 @@
+"use strict";  // meta errorus kai const, let.... neparasai (lengviau klaidas pamatyti)
+
 /*
 OBJECT -- objektas
 key-value poru sarasas
@@ -131,6 +133,7 @@ const krep = [
        kiekis: 1,
     },
 ]
+// great wall of index
 let index_1 = 1;
 let index = 0;
 let index1 = 0;
@@ -181,7 +184,23 @@ console.log(preke5);
 console.log(line);
 console.log(sablonasC);
 
+console.clear();
 
+const pc = {
+    monitor: '1920x1080',
+    ram: 16,
+    hd: 100,
+    keyboard: 'en',
+    mouse: true,
+    power: true,
+};
+console.log(pc);
+console.log(pc.ram);
+console.log(pc['hd']);
+
+const param = 'power';
+
+console.log(pc[param]);
 
 
 
