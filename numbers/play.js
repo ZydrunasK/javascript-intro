@@ -54,6 +54,27 @@ console.log(stuff);
 console.log(stuff2);
 console.log(stuff3);
 
+console.clear();
+
+let index = 0;
+
+const skaiciai = [5, 4, 6, 8, 7, 10, 2, 1, 3];
+
+let skaiciuSum = skaiciai[index++];
+skaiciuSum += skaiciai[index++];
+skaiciuSum += skaiciai[index++];
+skaiciuSum += skaiciai[index++];
+skaiciuSum += skaiciai[index++];
+skaiciuSum += skaiciai[index++];
+skaiciuSum += skaiciai[index++];
+skaiciuSum += skaiciai[index++];
+skaiciuSum += skaiciai[index++];
+
+console.log('kiekis - ', skaiciai.length);
+console.log('current index', index++);
+console.log(skaiciuSum);
+
+
 
 
 

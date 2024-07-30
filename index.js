@@ -21,13 +21,51 @@ Nenormalus "skaicius":
     - aritmetiniai: +, -, /, *, %, ++, --
     - aritmetiniai priskyrimo: += -=, /=, *=, %=,
 
-Savybes:
+kintamieji (duomenu tipai):
+    + iniciavimo būdai
+    + number
+    - string (tekstas)
+    + boolean (true/false)
+    + array (sąrašas)
+    - object (kompleksiškas duomuo/struktūra)
+    - null
+    - undefined
+salygos/palyginimo (if):
+    - boolean logika
+    - if
+    - switch
+    - ternary
+ciklai (for):
+    - for
+    - for-of
+    - for-in
+    - while
+    - do-while
+    - cikliski metodai:
+        - map
+        - filter
+        - sort
+        - reduce
+        - foreach
+        - N+1...
+function:
+    - "iprastos" deklaruotinos
+    - anonimines (priskirtos kintamajam)
+    - rodyklines (arrow)
+class (oop):
+    - class
+    - inheritence
+    - private values
+    - static method
+methods:
+    - number
+    - string
+    - array
+    - object
+event listeners:
+    - keyboard click
+    - mouse click (left/main)
+    - mouse click (right/context)
+    - scroll
+*/
 
-lenght = 
-
-
-
-    */
-
-
-console.clear();

@@ -147,10 +147,8 @@ let kiekisKrep = (
     krep[index++].kiekis +
     krep[index++].kiekis 
 );
-const skirtprek = 'Prekiu krepselyje yra ' + krep.length + ' prekiu.';
-
+const skirtprek = 'Prekiu krepselyje yra ' + krep.length + ' prekes.';
 const sablonasA = 'Prekiu krepselyje yra ' + kiekisKrep + ' prekiu.';
-
 /*  
     indexN = 0  |  indexN_X = X  |
     sablonas B   
@@ -161,7 +159,6 @@ let preke3 = index_1++ + ') ' + krep[index1++].preke + '(' + krep[index2++].kain
 let preke4 = index_1++ + ') ' + krep[index1++].preke + '(' + krep[index2++].kaina + ' eur)' + ' - ' + krep[index3++].kiekis
 let preke5 = index_1++ + ') ' + krep[index1++].preke + '(' + krep[index2++].kaina + ' eur)' + ' - ' + krep[index3++].kiekis
 
-
 // sablonas C
 let prekeprice = krep[index4++].kaina * krep[index5++].kiekis;
 prekeprice += krep[index4++].kaina * krep[index5++].kiekis 
@@ -169,13 +166,12 @@ prekeprice += krep[index4++].kaina * krep[index5++].kiekis
 prekeprice += krep[index4++].kaina * krep[index5++].kiekis
 prekeprice += krep[index4++].kaina * krep[index5++].kiekis
 
-
 let sablonasC = 'Prekiu krepselio verte yra ' + prekeprice + ' eur.';
 
 // console.log(krep);
 // console.log(kiekisKrep);
-// console.log(skirtprek);
-console.log(sablonasA);
+console.log(skirtprek);
+// console.log(sablonasA);
 console.log(line);
 console.log(preke1);
 console.log(preke2);
