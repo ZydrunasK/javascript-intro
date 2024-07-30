@@ -1,3 +1,5 @@
+"use strict";  // meta errorus kai const, let.... neparasai (lengviau klaidas pamatyti)
+
 /*
 NUMBER (skaiciai)
 

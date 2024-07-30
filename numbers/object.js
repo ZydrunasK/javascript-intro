@@ -201,6 +201,26 @@ console.log(pc['hd']);
 const param = 'power';
 
 console.log(pc[param]);
+console.clear();
 
+// dinaminis reiksmiu priskyrimas
+
+const zoo = {
+    liutas: 2,
+};
+
+console.log(zoo);
+zoo.liutas += 3;
+
+console.log(zoo);
+
+zoo.dramblys = 1;
+console.log(zoo);
+
+zoo.dramblys += 1;
+console.log(zoo);
+
+zoo.lape = 3;
+console.log(zoo);
 
 

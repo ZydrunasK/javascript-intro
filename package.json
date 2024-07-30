@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "dead-server --host=localhost --browser=chrome",
     "js":"node ./index.js",
+    "if":"node --watch ./if/if.js",
     "number":"node --watch ./numbers/number.js",
     "string":"node --watch ./numbers/string.js",
     "boolean":"node --watch ./numbers/boolean.js",
     "boolean2":"node --watch ./numbers/boolean2.js",
     "array":"node --watch ./numbers/array.js",
     "object":"node --watch ./numbers/object.js",
+    "null":"node --watch ./numbers/null.js",
     "play":"node --watch ./numbers/play.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
