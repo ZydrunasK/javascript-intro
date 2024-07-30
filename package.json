@@ -14,6 +14,7 @@
     "object":"node --watch ./numbers/object.js",
     "null":"node --watch ./numbers/null.js",
     "play":"node --watch ./numbers/play.js",
+    "playtasks":"node --watch ./numbers/playtasks.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
