@@ -4,6 +4,7 @@ STRING - tekstas, simboliu grandinele
 string iniciavimo simboliai:
     - ' (vienguba kabute)
     - " (dviguba kabute)
+    - ` (backtick)
 
 Operatioriai:
 + sujungia stringus

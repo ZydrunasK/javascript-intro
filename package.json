@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "dead-server --host=localhost --browser=chrome",
     "js":"node ./index.js",
+    "function":"node --watch ./functions/function.js",
     "if":"node --watch ./if/if.js",
+    "ternary":"node --watch ./if/ternary.js",
     "number":"node --watch ./numbers/number.js",
     "string":"node --watch ./numbers/string.js",
     "boolean":"node --watch ./numbers/boolean.js",

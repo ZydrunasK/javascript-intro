@@ -14,6 +14,13 @@ visi: >, <, >=, <=, !=, ===, !==
 naudotini: >, <, >=, <=, ===, !==
 nenaudotini: ==, !=
 
+ZINOTINI DALYKAI:
+-true pozytivus, false negatyvus
+-visi skaiciai yra pozityvus, isskyrus nuli (0)
+-visi stringai yra pozityvus, isskyrus tusti ('')
+-visi array ([]) yra pozityvus
+-visi object ({}) yra pozityvus
+
 */
 
 
@@ -52,3 +59,23 @@ if (diena === 1) {
 }
 
 console.log(dienosPavadinimas);
+console.clear();
+
+// code nesting
+const colors = ['red', 'green', 'blue']
+const color = 'green';
+
+if (color === colors[0]) {
+    console.log('Raudona');
+} else {
+    if (color === colors[1]) {
+        console.log('Zalia');
+    } else {
+        if (color === colors[2]) {
+            console.log('Melyna');
+        } else {
+            console.log('ai ai ai');
+        }
+    }
+}
+
