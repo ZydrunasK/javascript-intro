@@ -12,7 +12,13 @@ for (let i=0; i < words.length; i++) {
 
 console.clear();
 
-for (let j = 20; j <= 30; j++) {
-    console.log(j);
-    
+function arTesti (index) {
+    if (index > 25) {
+        return false;
+    }
+    return true;
+}
+
+for (j = 20;arTesti(j); j++) {
+        console.log(j);   
 }

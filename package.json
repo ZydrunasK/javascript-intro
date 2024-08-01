@@ -1,11 +1,13 @@
 {
   "name": "javascript-1",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "dead-server --host=localhost --browser=chrome",
     "js":"node ./index.js",
     "function":"node --watch ./functions/function.js",
+    "import":"node --watch ./functions/import.js",
     "if":"node --watch ./if/if.js",
     "ternary":"node --watch ./if/ternary.js",
     "for":"node --watch ./ciklas/for.js",
