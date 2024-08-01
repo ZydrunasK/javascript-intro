@@ -159,53 +159,31 @@ console.log('-------------------------');
 console.log('Kintamuju palyginimas');
 
 function numMore(nr1, nr2) {
-    if (nr1 > nr2) {
-    console.log('Pomidoras');
-} else {
-    console.log('Bandykite kitą kartą.');
-}
+nr1 > nr2 ? 'Pomidoras' : 'Bandykite kitą kartą.';
 };
 
 function numLess(nr1, nr2) {
-    if (nr1 < nr2) {
-    console.log('Pomidoras');
-} else {
-    console.log('Bandykite kitą kartą.');
-}
+    nr1 < nr2 ? 'Pomidoras' : 'Bandykite kitą kartą.';
 };
 
 function numEqual(nr1, nr2) {
-    if (nr1 === nr2) {
-    console.log('Pomidoras');
-} else {
-    console.log('Bandykite kitą kartą.');
-}
+    nr1 === nr2 ? 'Pomidoras' : 'Bandykite kitą kartą.';
 };
 
 function numNotEqual(nr1, nr2) {
-    if (nr1 !== nr2) {
-    console.log('Pomidoras');
-} else {
-    console.log('Bandykite kitą kartą.');
-}
-};
-function numMoreEqual(nr1, nr2) {
-    if (nr1 >= nr2) {
-    console.log('Pomidoras');
-} else {
-    console.log('Bandykite kitą kartą.');
-}
-};
-function numLessEqual(nr1, nr2) {
-    if (nr1 <= nr2) {
-    console.log('Pomidoras');
-} else {
-    console.log('Bandykite kitą kartą.');
-}
+    nr1 !== nr2 ? 'Pomidoras' : 'Bandykite kitą kartą.';
 };
 
-const nr1 = 1;
-const nr2 = 2;
+function numMoreEqual(nr1, nr2) {
+    nr1 >= nr2 ? 'Pomidoras' : 'Bandykite kitą kartą.';
+};
+
+function numLessEqual(nr1, nr2) {
+    nr1 <= nr2 ? 'Pomidoras' : 'Bandykite kitą kartą.';
+};
+
+const nr1 = 3;
+const nr2 = 5;
 const txt1 = 'hello';
 const txt2 = 'goodbye';
 

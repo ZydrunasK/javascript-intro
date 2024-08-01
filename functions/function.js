@@ -86,3 +86,10 @@ function avrgOfThree(n1, n2, n3) {
  console.log(love('red'));
  console.log(love('green'));
  console.log(love('blue'));
+
+ console.clear();
+ function textCalc(a, b) {
+    return 'Some text before number ' + (a + b);
+ };
+
+ console.log(textCalc(1, 2))
