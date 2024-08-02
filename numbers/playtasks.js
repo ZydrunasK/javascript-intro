@@ -271,7 +271,64 @@ console.log("----f.----");
 console.log(liLessEqual(ln1, ls1));
 
 // Ciklo for panaudojimas
-
 console.log();
 console.log("Ciklo for panaudojimas");
+
 console.log("----1----");
+console.log();
+console.log("----a----");
+let sumA = 0;
+
+for (let i = 0; i <= 0; i++) {
+  sumA += i;
+}
+console.log('intervalas 0 ... 0');
+console.log('suma - ', sumA);
+
+console.log("----b----");
+let sumB = 0;
+for (let i = 0; i <= 4; i++) {
+  sumB += i;
+}
+console.log('intervalas 0 ... 4');
+console.log('suma - ', sumB);
+
+console.log("----c----");
+let sumC = 0;
+for (let i = 0; i <= 100; i++) {
+  sumC += i;
+}
+console.log('intervalas 0 ... 100');
+console.log('suma - ', sumC);
+
+console.log("----d----");
+let sumD = 0;
+for (let i = 0; i <= 815; i++) {
+  sumD += i;
+}
+console.log('intervalas 574 ... 815');
+console.log('suma - ', sumD);
+
+console.log("----e----");
+let sumE = 0;
+for (let i = -50; i <= 50; i++) {
+  sumE += i;
+}
+console.log('intervalas -50 ... 50');
+console.log('suma - ', sumE);
+
+console.log("----f----");
+let sumF = 0;
+for (let i = -70; i <= 30; i++) {
+  sumF += i;
+}
+console.log('intervalas -70 ... 30');
+console.log('suma - ', sumF);
+
+console.log();
+console.log("----2----");
+
+for (let i = ap.length - 1; i >= 0; i--) {
+  console.log(ap[i]);
+}
+
