@@ -9,6 +9,7 @@
     "function":"node --watch ./functions/function.js",
     "import":"node --watch ./functions/import.js",
     "if":"node --watch ./if/if.js",
+    "typeof":"node --watch ./if/typeof.js",
     "ternary":"node --watch ./if/ternary.js",
     "for":"node --watch ./ciklas/for.js",
     "number":"node --watch ./numbers/number.js",
