@@ -17,6 +17,7 @@
     "for-in":"node --watch ./ciklas/for-in.js",
     "while":"node --watch ./ciklas/while.js",
     "number":"node --watch ./numbers/number.js",
+    "methodNum":"node --watch ./methods/methodNum.js",
     "string":"node --watch ./numbers/string.js",
     "boolean":"node --watch ./numbers/boolean.js",
     "boolean2":"node --watch ./numbers/boolean2.js",
