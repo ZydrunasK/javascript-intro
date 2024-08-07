@@ -7,6 +7,7 @@
     "dev": "dead-server --host=localhost --browser=chrome",
     "js":"node ./index.js",
     "function":"node --watch ./functions/function.js",
+    "arrow":"node --watch ./functions/arrow.js",
     "import":"node --watch ./functions/import.js",
     "if":"node --watch ./if/if.js",
     "typeof":"node --watch ./if/typeof.js",
