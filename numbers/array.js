@@ -48,7 +48,7 @@ const letter2 = word2[1];
 const letter11 = dictionary[0][0];
 
 console.log(letter11);
-console.clear();
+// console.clear();
 
 const pazymiai = [10, 2, 8, 4, 6]
 
@@ -74,7 +74,7 @@ tempSuma += pazymiai[index++]
 
 console.log(index, tempSuma);
 
-console.clear();
+// console.clear();
 
 const colors = ['red', 'green', 'blue'];
 
