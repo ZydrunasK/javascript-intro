@@ -18,6 +18,7 @@
     "while":"node --watch ./ciklas/while.js",
     "number":"node --watch ./numbers/number.js",
     "math":"node --watch ./methods/math.js",
+    "random":"node --watch ./methods/math-random.js",
     "methodNum":"node --watch ./methods/methodNum.js",
     "spread":"node --watch ./methods/spread.js",
     "methodArr":"node --watch ./methods/methodArr.js",
